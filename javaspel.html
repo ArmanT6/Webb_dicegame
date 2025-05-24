@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tärningsspel</title>
+  <link rel="stylesheet" href="javaspel.css" />
+</head>
+<body>
+  <h1>Tärningsspel</h1>
+
+  <div class="players">
+    <div class="player player--0 player--active">
+      <h2>Spelare 1</h2>
+      <p id="score--0">0</p>
+      <p>Nuvarande: <span id="current--0">0</span></p>
+    </div>
+
+    <div class="dice-container">
+      <div class="dice hidden" id="dice"></div>
+    </div>
+
+    <div class="player player--1">
+      <h2>Spelare 2</h2>
+      <p id="score--1">0</p>
+      <p>Nuvarande: <span id="current--1">0</span></p>
+    </div>
+  </div>
+
+  <button class="btn btn--roll">Kasta tärning</button>
+  <button class="btn btn--hold">Håll</button>
+  <button class="btn btn--new">Nytt spel</button>
+
+  <script src="javaspel.js"></script>
+</body>
+</html>
